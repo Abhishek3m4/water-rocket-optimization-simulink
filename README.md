@@ -13,7 +13,7 @@
 
 ## 📌 Project Overview
 
-This project presents an advanced **MATLAB & Simulink-based simulation and optimization of a water rocket system**, developed as part of a **Rocketry Internship Program (2025–2026)**.
+This project presents an advanced **MATLAB & Simulink-based simulation and optimization of a water rocket system**, developed as part of a **Rocketry Internship Program - Bharat Space Education Research Centre (भारत अंतरिक्ष शिक्षा अनुसंधान केंद्र ) (2025–2026)**.
 
 Unlike traditional projects that simulate only one configuration, this project focuses on:
 
@@ -28,8 +28,9 @@ The goal is to determine the **optimal rocket configuration for maximum altitude
 
 ## 🎓 Internship Details
 
-- **Project Title:** Innovation in Water Rocket Modeling  
-- **Project Type:** Internship Project  
+- **Project Title:** Innovation in Water Rocket Modeling: Automated Parametric Optimization Using MATLAB and Simulink  
+- **Project Type:** Internship Project
+- **organization:** Bharat Space Education Research Centre (भारत अंतरिक्ष शिक्षा अनुसंधान केंद्र )
 - **Institute:** K. K. Wagh Institute of Engineering Education and Research, Nashik  
 - **Department:** Electronics & Telecommunication Engineering  
 - **Academic Year:** 2025–2026  

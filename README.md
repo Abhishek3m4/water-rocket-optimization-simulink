@@ -213,8 +213,6 @@ water-rocket-optimization-simulink/
 B.Tech (E&TC), Third Year  
 K. K. Wagh Institute of Engineering Education and Research, Nashik  
 
-Avionics & Flight Computer Team – Team Antariiksh  
-
 ---
 
 ## 📜 Conclusion

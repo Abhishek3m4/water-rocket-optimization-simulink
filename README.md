@@ -38,8 +38,6 @@ The objective is to determine the **optimal rocket configuration for maximum alt
 - Software Simulation (Mandatory)  
 - Physical Model (Optional)  
 
-> This project fulfills the requirement of trajectory, thrust, and stability simulation.
-
 ---
 
 ## 🧠 Abstract / Executive Summary
@@ -49,11 +47,11 @@ This project introduces an innovative approach to water rocket simulation by com
 - Automated parametric optimization  
 - MATLAB numerical modeling  
 - Simulink dynamic simulation  
-- Real-time 3D visualization  
+- Real-time visualization  
 
 Instead of analyzing a single rocket design, this project evaluates **hundreds of configurations** to identify the best-performing rocket.
 
-This approach transforms simulation into a **virtual test bench**, similar to real aerospace engineering workflows.
+This transforms simulation into a **virtual test bench**, similar to real aerospace engineering workflows.
 
 ---
 
@@ -75,8 +73,6 @@ T = ṁ × vₑ
 - Aerodynamic Drag
 - Pressure decay due to air expansion
 
-This ensures **physically accurate simulation behavior**.
-
 ---
 
 ## 🔬 Project Methodology
@@ -91,33 +87,27 @@ The project is divided into two major sections:
 ### 2️⃣ Simulink-Based Dynamic Model
 - Block-based modeling  
 - Real-time simulation  
-- 3D animation using Simulink  
+- 3D animation  
 
-Both sections are based on the **same physical model for validation consistency**.
+Both sections are based on the **same physical model for validation**.
 
 ---
 
 ## 🔁 Automated Parametric Optimization
 
-### 🚀 What makes this project unique?
-
-Instead of simulating one rocket:
+### 🚀 Key Approach
 
 ✔ Water fraction varied from **20% to 60%**  
 ✔ Pressure varied from **3 bar to 7 bar**  
 ✔ Hundreds of simulations executed automatically  
 
 The system:
-
 - Stores results  
 - Compares performance  
 - Identifies optimal design  
 
-👉 It answers:  
-**“Which rocket design performs best?”**  
-
-NOT just:  
-**“How does one rocket behave?”**
+👉 Answers:  
+**“Which rocket design performs best?”**
 
 ---
 
@@ -128,9 +118,9 @@ NOT just:
 - Velocity vs Time
 - Thrust vs Time
 - Pressure vs Maximum Height
-- Heatmaps for optimization
+- Optimization Heatmaps
 
-### Key Observations:
+### Observations:
 - Higher pressure → Higher thrust  
 - Too much water → Excess mass  
 - Too little water → Short thrust duration  
@@ -151,53 +141,13 @@ NOT just:
 
 ---
 
-## 🧩 Simulink Model Architecture
-
-### Core Blocks:
-- Rocket Dynamics Subsystem  
-- Integrators (Velocity, Height, Mass)  
-- Gain & Conversion Blocks  
-- 3D Animation Blocks  
-- Stop Logic  
-
-### Outputs:
-- Height vs Time  
-- Velocity vs Time  
-- Mass variation  
-
-Simulink ensures **real-time physical interaction between variables**.
-
----
-
-## 🎥 Simulation & Visualization
-
-### 🚀 Rocket Trajectory Visualization
+## 🎬 Simulation Visualization
 
 <p align="center">
-  <img src="docs/trajectory_plot.png" width="500"/>
+  <img src="https://media.giphy.com/media/l0MYt5jPR6QX5pnqM/giphy.gif" width="400"/>
 </p>
 
-### ⚙️ Simulink Model
-
-<p align="center">
-  <img src="docs/simulink_model.png" width="700"/>
-</p>
-
-### 📊 Optimization Heatmap
-
-<p align="center">
-  <img src="docs/heatmap.png" width="500"/>
-</p>
-
----
-
-## 🎬 Animated Simulation (Recommended)
-
-<p align="center">
-  <img src="docs/rocket_simulation.gif" width="400"/>
-</p>
-
-> 💡 Add a GIF of your MATLAB/Simulink simulation here for best impact.
+> Water rocket motion representation (for visualization purpose)
 
 ---
 
@@ -205,15 +155,13 @@ Simulink ensures **real-time physical interaction between variables**.
 
 ✔ Automated parametric optimization  
 ✔ Simulation as virtual test bench  
-✔ Data-driven design decision making  
-✔ Integration of MATLAB + Simulink  
-✔ Real-time 3D visualization  
-
-This approach closely follows **real aerospace engineering practices**.
+✔ Data-driven design decisions  
+✔ MATLAB + Simulink integration  
+✔ Real-time visualization  
 
 ---
 
-## 📌 Why This Project is Important
+## 📌 Why This Project Matters
 
 - Moves beyond basic academic simulation  
 - Introduces optimization-based engineering  
@@ -226,7 +174,7 @@ This approach closely follows **real aerospace engineering practices**.
 
 ## 🔮 Future Scope
 
-- 📡 ESP32-based real-time telemetry  
+- 📡 ESP32-based telemetry integration  
 - 🌪 Wind & environmental modeling  
 - 🧠 Control system (PID / feedback)  
 - 🛰 ROS2 integration  
@@ -235,3 +183,32 @@ This approach closely follows **real aerospace engineering practices**.
 ---
 
 ## 📁 Project Structure
+
+water-rocket-optimization-simulink/  
+│── simulink_model/  
+│── matlab_scripts/  
+│── results/  
+│── docs/  
+│── README.md  
+
+---
+
+## 👨‍💻 Author
+
+**Abhishek Jayvant Ahirrao**  
+B.Tech (E&TC), Third Year  
+K. K. Wagh Institute of Engineering Education and Research, Nashik  
+
+Avionics & Flight Computer Team – Team Antariiksh  
+
+---
+
+## 📜 Conclusion
+
+This project transforms a simple water rocket into a **complete engineering system design and optimization framework**.
+
+✔ Physics-based modeling  
+✔ Simulation-driven optimization  
+✔ Real-world engineering workflow  
+
+> 🚀 This is not just a project — it is a **mini aerospace engineering system design platform**.

@@ -211,6 +211,7 @@ water-rocket-optimization-simulink/
 ## 👨‍💻 Author
 
 **Abhishek Jayvant Ahirrao**  
+**Vaishnavi Subhash Pawar**  
 B.Tech (E&TC), Third Year  
 K. K. Wagh Institute of Engineering Education and Research, Nashik  
 

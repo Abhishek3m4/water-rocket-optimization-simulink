@@ -49,6 +49,19 @@ The internship required software-based simulation with analysis of **trajectory,
 | **Physical Model** | Optional / Ideal |
 
 ---
+## 👥 Made With
+
+This project was made with dedication and collaboration by:
+
+| Team Member |
+|-------------|
+| **Abhishek Ahirrao** |
+| **Vaishnavi Pawar** |
+
+**B.Tech – Electronics & Telecommunication Engineering**  
+**K. K. Wagh Institute of Engineering Education and Research, Nashik**
+
+---
 
 ## 🧠 Abstract
 

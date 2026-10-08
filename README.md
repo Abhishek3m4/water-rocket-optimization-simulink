@@ -1,228 +1,176 @@
-# 🚀 Water Rocket Optimization using MATLAB & Simulink  
-### Automated Parametric Design & Performance Optimization
+<div align="center">
 
-<p align="center">
+# 🚀 Water Rocket Optimization using MATLAB & Simulink
+
+### Automated Parametric Design, Simulation & Performance Analysis
+
+<a href="https://github.com/Abhishek3m4/water-rocket-optimization-simulink">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,100:203a43&height=170&section=header&text=Water%20Rocket%20Optimization&fontSize=36&fontColor=ffffff&animation=fadeIn&fontAlignY=35" width="100%"/>
+</a>
+
+<p>
   <img src="https://img.shields.io/badge/MATLAB-Simulation-blue?logo=mathworks"/>
-  <img src="https://img.shields.io/badge/Simulink-Dynamic_Modeling-orange"/>
+  <img src="https://img.shields.io/badge/Simulink-Dynamic%20Modeling-orange?logo=mathworks"/>
   <img src="https://img.shields.io/badge/Aerospace-Rocketry-red"/>
   <img src="https://img.shields.io/badge/Internship-Project-success"/>
   <img src="https://img.shields.io/badge/Status-Completed-brightgreen"/>
+  <img src="https://img.shields.io/badge/License-MIT-yellow"/>
+</p>
+
+<p>
+  <b>Physics-based water rocket simulation + automated parameter sweep + Simulink validation</b>
+</p>
+
+</div>
+
+---
+
+## 📌 Overview
+
+A MATLAB & Simulink-based **water rocket simulation and parametric optimization framework** developed during a rocketry internship.
+
+The project evaluates different **water fractions and launch pressures**, simulates the rocket flight, and identifies the configuration producing the highest simulated altitude.
+
+The internship brief specifically required a software simulation capable of analysing **trajectory, thrust and stability**. :chatgpt-content-reference{index="0"} :chatgpt-content-reference{index="1"}
+
+---
+
+## ⚡ Key Features
+
+- 🚀 **Physics-Based Model** — Variable-mass rocket dynamics with thrust, drag and gravity.
+- 🔁 **Parametric Sweep** — Water fraction: **20–60%** and pressure: **3–7 bar**.
+- 📈 **Performance Analysis** — Height, velocity, thrust and burn-time histories.
+- 🧮 **Automated Optimization** — Searches the parameter space for maximum simulated height.
+- 🧩 **Simulink Model** — Block-based dynamic simulation of the rocket system.
+- 🌐 **3D Visualization** — MATLAB-based animated rocket trajectory.
+
+The modelling approach follows core rocketry concepts including thrust, gravity, drag, mass variation and aerodynamic stability. :chatgpt-content-reference{index="2"} :chatgpt-content-reference{index="3"}
+
+---
+
+## 🎬 Demo & Screenshots
+
+### 3D MATLAB Simulation
+
+<p align="center">
+  <img src="results/images/Live_3d_rocket_matlab.png" width="85%" alt="Live 3D MATLAB Water Rocket Simulation">
+</p>
+
+<p align="center">
+  <b>Live 3D water rocket trajectory simulation in MATLAB</b>
 </p>
 
 ---
 
-## 📌 Project Overview
+### Simulink Simulation
 
-This project presents an advanced **MATLAB & Simulink-based simulation and optimization of a water rocket system**, developed as part of a **Rocketry Internship Program - Bharat Space Education Research Centre (भारत अंतरिक्ष शिक्षा अनुसंधान केंद्र ) (2025–2026)**.
+<p align="center">
+  <img src="results/images/simulink_model.png" width="95%" alt="Water Rocket Simulink Model">
+</p>
 
-Unlike traditional projects that simulate only one configuration, this project focuses on:
+<p align="center">
+  <b>Water rocket dynamic model implemented in Simulink</b>
+</p>
 
-- Automated parametric optimization  
-- Physics-based modeling  
-- Dynamic simulation  
-- Performance analysis  
-
-The goal is to determine the **optimal rocket configuration for maximum altitude and stability** using a simulation-driven engineering approach.
-
----
-
-## 🎓 Internship Details
-
-- **Project Title:** Innovation in Water Rocket Modeling: Automated Parametric Optimization Using MATLAB and Simulink  
-- **Project Type:** Internship Project
-- **organization:** Bharat Space Education Research Centre (भारत अंतरिक्ष शिक्षा अनुसंधान केंद्र )
-- **Institute:** K. K. Wagh Institute of Engineering Education and Research, Nashik  
-- **Department:** Electronics & Telecommunication Engineering  
-- **Academic Year:** 2025–2026  
-
-### 📋 Internship Requirements
-- Software Simulation (Mandatory)  
-- Physical Model (Optional)  
+<table>
+<tr>
+<td align="center">
+<img src="results/images/simulink rocket on ground min_height.png" width="95%" alt="Simulink Rocket Ground State">
+<br><b>Simulink — Initial / Ground State</b>
+</td>
+<td align="center">
+<img src="results/images/simulink rocket in space max_height.png" width="95%" alt="Simulink Rocket Maximum Height">
+<br><b>Simulink — Maximum Height State</b>
+</td>
+</tr>
+</table>
 
 ---
 
-## 🧠 Abstract / Executive Summary
+### Parametric Simulation Results
 
-This project introduces a systematic and innovative approach to water rocket simulation by integrating:
-
-- Automated parametric optimization  
-- MATLAB-based numerical modeling  
-- Simulink-based dynamic simulation  
-
-Instead of analyzing a single rocket configuration, this project evaluates **hundreds of design combinations** to identify the best-performing rocket.
-
-This transforms simulation into a **virtual test bench**, similar to real aerospace engineering workflows.
-
----
-
-## ⚙️ Physics & Mathematical Modeling
-
-The water rocket is modeled using fundamental physics principles:
-
-### 🔹 Newton’s Second Law (Variable Mass System)
-
-a(t) = (T(t) − D(t) − m(t)g) / m(t)
-
-### 🔹 Thrust Generation
-
-T = ṁ × vₑ
-
-### 🔹 Forces Considered
-- Thrust due to water expulsion  
-- Gravity  
-- Aerodynamic drag  
-- Pressure decay due to air expansion  
-
-This ensures a **realistic and physically consistent simulation model**.
+<table>
+<tr>
+<td align="center">
+<img src="results/images/H,V,Th_for 20% water.png" width="95%" alt="20 percent water simulation">
+<br><b>20% Water</b>
+</td>
+<td align="center">
+<img src="results/images/H,V,Th_for 40% water.png" width="95%" alt="40 percent water simulation">
+<br><b>40% Water</b>
+</td>
+</tr>
+<tr>
+<td align="center">
+<img src="results/images/H,V,Th_for 60% water.png" width="95%" alt="60 percent water simulation">
+<br><b>60% Water</b>
+</td>
+<td align="center">
+<img src="results/images/pressure_Vs_max_height.png" width="95%" alt="Pressure versus maximum height">
+<br><b>Pressure vs Maximum Height</b>
+</td>
+</tr>
+</table>
 
 ---
 
-## 🔬 Project Methodology
+### Optimization Heatmaps
 
-The project is divided into two integrated sections:
+<table>
+<tr>
+<td align="center">
+<img src="results/images/Maximum Height Heatmap.png" width="95%" alt="Maximum height heatmap">
+<br><b>Maximum Height Heatmap</b>
+</td>
+<td align="center">
+<img src="results/images/Burn Time Heatmap.png" width="95%" alt="Burn time heatmap">
+<br><b>Burn Time Heatmap</b>
+</td>
+</tr>
+</table>
 
-### 1️⃣ MATLAB-Based Simulation & Optimization
-- Numerical modeling of rocket dynamics  
-- Automated parameter variation  
-- Data-driven performance analysis  
+<p align="center">
+  <img src="results/images/max_height_table.png" width="75%" alt="Maximum height results table">
+</p>
 
-### 2️⃣ Simulink-Based Dynamic Modeling
-- Block-based system modeling  
-- Real-time simulation of rocket motion  
-- Validation of MATLAB results  
-
-Both approaches use the **same physics model** to ensure consistency and accuracy.
-
----
-
-## 🔁 Automated Parametric Optimization
-
-### 🚀 Core Approach
-
-Instead of simulating a single rocket:
-
-- Water fraction varied from **20% to 60%**  
-- Internal pressure varied from **3 bar to 7 bar**  
-- Hundreds of simulations executed automatically  
-
-### 🔍 What the System Does
-- Stores simulation results  
-- Compares performance metrics  
-- Identifies optimal configuration  
-
-👉 This answers:  
-**“Which rocket design performs best?”**
+<p align="center">
+  <b>Maximum-height parameter table generated from the automated sweep</b>
+</p>
 
 ---
 
-## 📊 Simulation Results & Analysis
+## 🔄 System Architecture / Workflow
 
-### Outputs Generated
-- Height vs Time (trajectory analysis)  
-- Velocity vs Time  
-- Thrust vs Time  
-- Pressure vs Maximum Height  
-- Optimization heatmaps  
+```mermaid
+flowchart LR
+    A[Design Parameters] --> B[Water Fraction]
+    A --> C[Initial Pressure]
 
-### Key Observations
-- Higher pressure increases thrust and altitude  
-- Excess water increases mass and reduces performance  
-- Too little water reduces thrust duration  
-- An optimal balance exists between thrust and mass  
+    B --> D[Water Rocket Physics Model]
+    C --> D
 
----
+    D --> E[Variable Mass]
+    D --> F[Pressure Decay]
+    D --> G[Thrust]
+    D --> H[Aerodynamic Drag]
+    D --> I[Gravity]
 
-## 📈 Optimal Configuration
+    E --> J[Rocket Dynamics]
+    F --> J
+    G --> J
+    H --> J
+    I --> J
 
-| Parameter        | Value        |
-|-----------------|-------------|
-| Water Fraction  | 0.40        |
-| Pressure        | 7 bar       |
-| Maximum Height  | ≈ 48.88 m   |
+    J --> K[Trajectory]
+    J --> L[Velocity]
+    J --> M[Height]
+    J --> N[Thrust History]
 
-### ✅ Key Insights
-- Balanced thrust-to-mass ratio  
-- Improved flight stability  
-- Maximum achievable altitude  
+    A --> O[Parametric Sweep]
+    O --> D
+    O --> P[Performance Comparison]
+    P --> Q[Optimal Configuration]
 
----
-
-## 🧩 Simulink Model Architecture
-
-### Main Components
-- Rocket Dynamics Subsystem  
-- Integrator Blocks (Velocity, Height, Mass)  
-- Gain and Conversion Blocks  
-- Stop Logic for landing detection  
-
-### Outputs
-- Height vs Time  
-- Velocity vs Time  
-- Mass variation  
-
-Simulink enables **real-time interaction between physical parameters**, closely matching real-world behavior.
-
----
-
-## 💡 Innovation Highlights
-
-- Automated parametric optimization instead of single-case simulation  
-- Evaluation of hundreds of rocket configurations  
-- Data-driven engineering decision-making  
-- Simulation used as a virtual test bench  
-- Integration of MATLAB and Simulink  
-
-This approach aligns with **real-world aerospace design methodologies**.
-
----
-
-## 📌 Importance of the Project
-
-- Moves beyond traditional academic simulations  
-- Introduces optimization-based engineering design  
-- Strengthens understanding of:
-  - Aerospace fundamentals  
-  - Simulation techniques  
-  - System modeling  
-
----
-
-## 🔮 Future Scope
-
-- Integration with ESP32 for real-time telemetry  
-- Wind and environmental modeling  
-- Control system implementation (PID / feedback)  
-- ROS2-based simulation integration  
-- Physical prototype validation  
-
----
-
-## 📁 Project Structure
-
-water-rocket-optimization-simulink/  
-│── simulink_model/  
-│── matlab_scripts/  
-│── results/  
-│── docs/  
-│── README.md  
-
----
-
-## 👨‍💻 Author
-
-**Abhishek Jayvant Ahirrao**  
-**Vaishnavi Subhash Pawar**  
-B.Tech (E&TC), Third Year  
-K. K. Wagh Institute of Engineering Education and Research, Nashik  
-
----
-
-## 📜 Conclusion
-
-This project transforms a simple water rocket into a **complete engineering system design and optimization framework**.
-
-- Physics-based modeling  
-- Simulation-driven optimization  
-- Real-world engineering workflow  
-
-> 🚀 This is not just a project — it is a **mini aerospace engineering system design platform**.
+    J --> R[Simulink Model]
+    R --> S[Dynamic Simulation]
+    S --> T[Validation / Visualization]
